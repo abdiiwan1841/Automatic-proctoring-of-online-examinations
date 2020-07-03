@@ -1,0 +1,27 @@
+​<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preperation Phase</title>
+    <link rel="stylesheet" href="css/training.css">
+</head>
+<body>
+    <h2>Training The model</h2>
+    <video id="vid" width="320" height="240" src="" muted></video>  
+
+
+
+    <canvas id="drawCanvas"  height="480" width="640"></canvas>
+
+    
+    <img id="image"  src="" alt="">
+    
+    <div id="collection">
+        <input type='button' id='snapshot' value="Take Snapshot"/>
+        <input type="button" id="send" value="Send Image" disabled>
+    </div>
+
+    <script src="socket.io.js"></script>
+    <script src="js/training.js" type="text/javascript"></script>
+</body>
+</html>

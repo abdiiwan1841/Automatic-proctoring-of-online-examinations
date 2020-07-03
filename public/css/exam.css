@@ -1,0 +1,20 @@
+*{
+    margin-left: 5%;
+}
+video{
+    display: block;
+    width: 60%;
+    height: 60%;
+}
+h2{
+    text-decoration: underline;
+    color: brown;
+    text-align: center;
+}
+input[type=button]{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+h1{
+    margin-left: 15%;
+}
